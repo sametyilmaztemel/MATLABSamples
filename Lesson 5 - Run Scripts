@@ -1,7 +1,17 @@
 Run Scripts
 Instructions are in the task pane to the left. Complete and submit each task one at a time.
 
-Task 1
+Task 1:
+
+This live script contains formatted text, code, and section breaks. In this course, scripts include Task headers to show where to enter your code. MATLAB displays any output in the output pane to the right of your code.
+
+You can test your code before submitting by running the script. To execute the entire script, click the  Run button.
+TASK
+Run the script to populate the output pane.
+
+Then modify the command for Task 1 so that r has a value of 0.5.
+
+Solution:
 
 r = 0.5
 
