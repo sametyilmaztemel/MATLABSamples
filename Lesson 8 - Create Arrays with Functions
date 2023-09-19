@@ -1,0 +1,49 @@
+Create Arrays with Functions
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+Task 1:
+
+MATLAB contains many functions that create commonly used matrices, such as matrices of random numbers.
+x = rand(2)
+x = 
+    0.8147    0.1270
+    0.9058    0.9134
+The 2 in the function call rand(2) specifies that the function creates a 2-by-2 matrix of random numbers.
+TASK
+Create a variable named x that is a 5-by-5 matrix of random numbers.
+
+Solution 1:
+x = rand(5)
+
+Task 2:
+
+Many matrix creation functions allow you to input one number to create a square matrix (n-by-n) or input two numbers to create a rectangular matrix (m-by-n).
+x = rand(2)
+x = 
+    0.8147    0.1270
+    0.9058    0.9134
+
+x = rand(2,3)
+x = 
+    0.6324    0.2785    0.9575
+    0.0975    0.5469    0.9649
+TASK
+Create a column vector that contains 5 rows and 1 column by using the rand function. Assign the result to a variable named y.
+
+Solution 2:
+y = rand(5,1)
+
+
+Task 3:
+
+Most array creation functions accept the same inputs as rand. For example, the zeros and ones functions create matrices of all zeros and all ones, respectively.
+x = ones(2,3)
+x = 
+    1    1    1
+    1    1    1
+TASK
+Create a matrix of all zeros that has 6 rows and 3 columns (6-by-3) by using the zeros function. Assign the result to a variable named z.
+
+Solution 3:
+z = zeros(6,3)
+
