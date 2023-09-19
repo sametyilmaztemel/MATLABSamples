@@ -1,0 +1,35 @@
+Changing Values in Arrays
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+Task 1:
+
+Remember, you can extract entire columns of arrays by using the : operator.
+
+TASK
+Create a vector named v2 containing the last column of data.
+
+Solution 1:
+v2 = data(:,end)
+
+Task 2:
+
+You can change the elements in a vector by combining indexing with assignment. This code changes the second element of A to 11.
+A(2) = 11
+
+TASK
+Change the first element of v2 from NaN to 0.5.
+
+Solution 2:
+v2(1) = 0.5
+
+Task 3:
+
+You can also use indexing to change the elements in a matrix. Here are the elements in the matrix data.
+
+Matrix with one NaN element in the top right.
+
+TASK
+Change the element in the first row and last column of data to 0.5.
+
+Solution 3:
+data(1,end) = 0.5
